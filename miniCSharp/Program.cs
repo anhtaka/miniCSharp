@@ -11,7 +11,7 @@ namespace miniCSharp
         static void Main(string[] args)
         {
             int i = 0;
-            i = "test";
+            i = i + 5;
             Console.WriteLine(i);
         }
     }
