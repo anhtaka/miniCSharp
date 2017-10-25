@@ -27,7 +27,11 @@ namespace miniCSharp
                 ms.Position = 0;
 
                 var json = sr.ReadToEnd();
+                var a = new Add();
 
+                var b = a.p(5, 6);
+
+                WriteLine(b);
                 WriteLine($"{json}"); // {"Age":31,"Name":"Kato Jun"}
             }
 
